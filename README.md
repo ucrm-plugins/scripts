@@ -9,9 +9,11 @@ A script that fixes some issues when attempting to install in WSL2.
 systemd=true
 ```
 
-3. Install UISP using the following command in place of UI's installer:
+3. Also make certain that WSL Integrations with Docker Desktop are enabled!
+
+4. Install UISP using the following command in place of UI's installer:
 ```bash
 curl -fsSL https://github.com/ucrm-plugins/scripts/raw/main/uisp_inst_wsl.sh > /tmp/uisp_inst_wsl.sh && sudo bash /tmp/uisp_inst_wsl.sh
 ```
 
-4. Enjoy!
+5. Enjoy!
