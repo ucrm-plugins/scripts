@@ -1,6 +1,3 @@
-# scripts
-Collection of helpful scripts for UISP
-
 ## uisp_inst_wsl.sh
 A script that fixes some issues when attempting to install in WSL2.
 
