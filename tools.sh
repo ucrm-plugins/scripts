@@ -5,7 +5,7 @@ apt-get update
 apt-get install -y ca-certificates apt-transport-https software-properties-common
 add-apt-repository -y ppa:ondrej/php
 apt-get update
-apt install -y php8.1-cli
+apt install -y php8.1-cli php8.1-curl php8.1-xml php8.1-zip
 
 # Composer (Latest)
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
