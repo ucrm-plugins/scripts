@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# Make sure GH_TOKEN is set before execution, OR use `gh auth login`
+# Make sure GH_TOKEN is set before execution
 
 cd ~
 mkdir -p ucrm-plugins
 
-git clone https://github.com/ucrm-plugins/monorepo.git
+gh repo clone ucrm-plugins/monorepo.git -- --recurse-submodules
